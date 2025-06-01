@@ -1,0 +1,9 @@
+name = "artenglueck-static-html-site"
+compatibility_date = "2025-06-01"
+
+[site]
+bucket = "./"
+entry-point = "."
+
+[env.production]
+workers_dev = true
